@@ -1,5 +1,6 @@
 """This file and its contents are licensed under the Apache License 2.0. Please see the included NOTICE for copyright information and LICENSE for a copy of the license.
 """
+import os
 import time
 import logging
 import drf_yasg.openapi as openapi
@@ -197,13 +198,14 @@ class ImportAPI(generics.CreateAPIView):
 
     def create(self, request, *args, **kwargs):
         start = time.time()
+        os.system('python model.py')
         commit_to_project = bool_from_request(request.query_params, 'commit_to_project', True)
         return_task_ids = bool_from_request(request.query_params, 'return_task_ids', False)
         preannotated_from_fields = list_of_strings_from_request(request.query_params, 'preannotated_from_fields', None)
 
         # check project permissions
         project = generics.get_object_or_404(Project.objects.for_user(self.request.user), pk=self.kwargs['pk'])
-
+        
         # upload files from request, and parse all tasks
         parsed_data, file_upload_ids, could_be_tasks_lists, found_formats, data_columns = load_tasks(request, project)
 
@@ -237,7 +239,7 @@ class ImportAPI(generics.CreateAPIView):
             prediction_count = None
 
         duration = time.time() - start
-
+        print(parsed_data)
         response = {
             'task_count': task_count,
             'annotation_count': annotation_count,

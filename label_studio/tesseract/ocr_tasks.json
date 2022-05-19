@@ -1,0 +1,835 @@
+[
+  {
+    "data": {
+      "ocr": "http://localhost:8081/medical report.png"
+    },
+    "predictions": [
+      {
+        "result": [],
+        "score": 0
+      }
+    ]
+  },
+  {
+    "data": {
+      "ocr": "http://localhost:8081/workflow model update.png"
+    },
+    "predictions": [
+      {
+        "result": [
+          {
+            "id": "1917e1cd-3",
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectangle",
+            "value": {
+              "x": 37.53446238676644,
+              "y": 27.688172043010752,
+              "width": 3.387160299330445,
+              "height": 3.0913978494623655,
+              "rotation": 0
+            }
+          },
+          {
+            "id": "1917e1cd-3",
+            "from_name": "transcription",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "AUTO UPLOAD SEARCHABLE ALGORITHM UNEXPECTED FROM TO ANOTHER"
+              ],
+              "x": 37.53446238676644,
+              "y": 27.688172043010752,
+              "width": 3.387160299330445,
+              "height": 3.0913978494623655,
+              "rotation": 0
+            },
+            "score": 0.948002081111111
+          },
+          {
+            "id": "2776d487-d",
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectangle",
+            "value": {
+              "x": 41.394249704608114,
+              "y": 27.688172043010752,
+              "width": 2.4419062623079952,
+              "height": 3.0913978494623655,
+              "rotation": 0
+            }
+          },
+          {
+            "id": "2776d487-d",
+            "from_name": "transcription",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "OCR A 2 RESULT OCR, RE- ALGORITH"
+              ],
+              "x": 41.394249704608114,
+              "y": 27.688172043010752,
+              "width": 2.4419062623079952,
+              "height": 3.0913978494623655,
+              "rotation": 0
+            },
+            "score": 0.9522293971428571
+          },
+          {
+            "id": "68c16783-4",
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectangle",
+            "value": {
+              "x": 73.49350137849547,
+              "y": 23.655913978494624,
+              "width": 7.28633320204805,
+              "height": 3.0913978494623655,
+              "rotation": 0
+            }
+          },
+          {
+            "id": "68c16783-4",
+            "from_name": "transcription",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "DOWNLOAD PDF aa OPTION OCR"
+              ],
+              "x": 73.49350137849547,
+              "y": 23.655913978494624,
+              "width": 7.28633320204805,
+              "height": 3.0913978494623655,
+              "rotation": 0
+            },
+            "score": 0.8599868239999999
+          },
+          {
+            "id": "470ba945-5",
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectangle",
+            "value": {
+              "x": 81.17369042930288,
+              "y": 23.655913978494624,
+              "width": 2.2449783379283184,
+              "height": 3.0913978494623655,
+              "rotation": 0
+            }
+          },
+          {
+            "id": "470ba945-5",
+            "from_name": "transcription",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "THE ALGORITHM THROUGH"
+              ],
+              "x": 81.17369042930288,
+              "y": 23.655913978494624,
+              "width": 2.2449783379283184,
+              "height": 3.0913978494623655,
+              "rotation": 0
+            },
+            "score": 0.9510361999999999
+          },
+          {
+            "id": "55fae515-6",
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectangle",
+            "value": {
+              "x": 18.58999606144151,
+              "y": 30.376344086021504,
+              "width": 5.632138637258763,
+              "height": 3.629032258064516,
+              "rotation": 0
+            }
+          },
+          {
+            "id": "55fae515-6",
+            "from_name": "transcription",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "AUTO UPLOAD SEARCHABLE ALGORITHM UNEXPECTED FROM TO ANOTHER"
+              ],
+              "x": 18.58999606144151,
+              "y": 30.376344086021504,
+              "width": 5.632138637258763,
+              "height": 3.629032258064516,
+              "rotation": 0
+            },
+            "score": 0.948002081111111
+          },
+          {
+            "id": "206ea086-c",
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectangle",
+            "value": {
+              "x": 24.6947617172115,
+              "y": 30.376344086021504,
+              "width": 0.9058684521465143,
+              "height": 3.629032258064516,
+              "rotation": 0
+            }
+          },
+          {
+            "id": "206ea086-c",
+            "from_name": "transcription",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "OCR A 2 RESULT OCR, RE- ALGORITH"
+              ],
+              "x": 24.6947617172115,
+              "y": 30.376344086021504,
+              "width": 0.9058684521465143,
+              "height": 3.629032258064516,
+              "rotation": 0
+            },
+            "score": 0.9522293971428571
+          },
+          {
+            "id": "65ec9e8e-1",
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectangle",
+            "value": {
+              "x": 26.15202835762111,
+              "y": 30.376344086021504,
+              "width": 2.4812918471839307,
+              "height": 3.629032258064516,
+              "rotation": 0
+            }
+          },
+          {
+            "id": "65ec9e8e-1",
+            "from_name": "transcription",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "DOWNLOAD PDF aa OPTION OCR"
+              ],
+              "x": 26.15202835762111,
+              "y": 30.376344086021504,
+              "width": 2.4812918471839307,
+              "height": 3.629032258064516,
+              "rotation": 0
+            },
+            "score": 0.8599868239999999
+          },
+          {
+            "id": "03b54fff-0",
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectangle",
+            "value": {
+              "x": 37.53446238676644,
+              "y": 33.736559139784944,
+              "width": 7.246947617172115,
+              "height": 3.0913978494623655,
+              "rotation": 0
+            }
+          },
+          {
+            "id": "03b54fff-0",
+            "from_name": "transcription",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "THE ALGORITHM THROUGH"
+              ],
+              "x": 37.53446238676644,
+              "y": 33.736559139784944,
+              "width": 7.246947617172115,
+              "height": 3.0913978494623655,
+              "rotation": 0
+            },
+            "score": 0.9510361999999999
+          },
+          {
+            "id": "35cfe863-d",
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectangle",
+            "value": {
+              "x": 45.332808192201654,
+              "y": 33.736559139784944,
+              "width": 0.5513981882630957,
+              "height": 3.0913978494623655,
+              "rotation": 0
+            }
+          },
+          {
+            "id": "35cfe863-d",
+            "from_name": "transcription",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "1"
+              ],
+              "x": 45.332808192201654,
+              "y": 33.736559139784944,
+              "width": 0.5513981882630957,
+              "height": 3.0913978494623655,
+              "rotation": 0
+            },
+            "score": 0.95269836
+          },
+          {
+            "id": "e2294e7b-2",
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectangle",
+            "value": {
+              "x": 73.80858605750295,
+              "y": 29.704301075268816,
+              "width": 2.1662071681764474,
+              "height": 3.0913978494623655,
+              "rotation": 0
+            }
+          },
+          {
+            "id": "e2294e7b-2",
+            "from_name": "transcription",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "PDF"
+              ],
+              "x": 73.80858605750295,
+              "y": 29.704301075268816,
+              "width": 2.1662071681764474,
+              "height": 3.0913978494623655,
+              "rotation": 0
+            },
+            "score": 0.77004974
+          },
+          {
+            "id": "83b977af-3",
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectangle",
+            "value": {
+              "x": 76.36864907443875,
+              "y": 29.704301075268816,
+              "width": 3.1114612051988972,
+              "height": 3.0913978494623655,
+              "rotation": 0
+            }
+          },
+          {
+            "id": "83b977af-3",
+            "from_name": "transcription",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "WITH"
+              ],
+              "x": 76.36864907443875,
+              "y": 29.704301075268816,
+              "width": 3.1114612051988972,
+              "height": 3.0913978494623655,
+              "rotation": 0
+            },
+            "score": 0.93740517
+          },
+          {
+            "id": "cd9ce7d5-a",
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectangle",
+            "value": {
+              "x": 73.72981488775109,
+              "y": 35.75268817204301,
+              "width": 7.522646711303663,
+              "height": 3.0913978494623655,
+              "rotation": 0
+            }
+          },
+          {
+            "id": "cd9ce7d5-a",
+            "from_name": "transcription",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "AUTO UPLOAD SEARCHABLE ALGORITHM UNEXPECTED FROM TO ANOTHER"
+              ],
+              "x": 73.72981488775109,
+              "y": 35.75268817204301,
+              "width": 7.522646711303663,
+              "height": 3.0913978494623655,
+              "rotation": 0
+            },
+            "score": 0.948002081111111
+          },
+          {
+            "id": "be58d111-7",
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectangle",
+            "value": {
+              "x": 37.53446238676644,
+              "y": 39.784946236559136,
+              "width": 7.246947617172115,
+              "height": 3.0913978494623655,
+              "rotation": 0
+            }
+          },
+          {
+            "id": "be58d111-7",
+            "from_name": "transcription",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "AUTO UPLOAD SEARCHABLE ALGORITHM UNEXPECTED FROM TO ANOTHER"
+              ],
+              "x": 37.53446238676644,
+              "y": 39.784946236559136,
+              "width": 7.246947617172115,
+              "height": 3.0913978494623655,
+              "rotation": 0
+            },
+            "score": 0.948002081111111
+          },
+          {
+            "id": "ef09a7f2-6",
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectangle",
+            "value": {
+              "x": 45.29342260732572,
+              "y": 39.784946236559136,
+              "width": 0.5907837731390311,
+              "height": 3.0913978494623655,
+              "rotation": 0
+            }
+          },
+          {
+            "id": "ef09a7f2-6",
+            "from_name": "transcription",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "OCR A 2 RESULT OCR, RE- ALGORITH"
+              ],
+              "x": 45.29342260732572,
+              "y": 39.784946236559136,
+              "width": 0.5907837731390311,
+              "height": 3.0913978494623655,
+              "rotation": 0
+            },
+            "score": 0.9522293971428571
+          },
+          {
+            "id": "1dae0416-7",
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectangle",
+            "value": {
+              "x": 73.69042930287515,
+              "y": 41.80107526881721,
+              "width": 2.875147695943285,
+              "height": 3.0913978494623655,
+              "rotation": 0
+            }
+          },
+          {
+            "id": "1dae0416-7",
+            "from_name": "transcription",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "DOWNLOAD PDF aa OPTION OCR"
+              ],
+              "x": 73.69042930287515,
+              "y": 41.80107526881721,
+              "width": 2.875147695943285,
+              "height": 3.0913978494623655,
+              "rotation": 0
+            },
+            "score": 0.8599868239999999
+          },
+          {
+            "id": "bd66160d-1",
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectangle",
+            "value": {
+              "x": 43.32414336352895,
+              "y": 66.12903225806451,
+              "width": 7.7195746356833395,
+              "height": 3.0913978494623655,
+              "rotation": 0
+            }
+          },
+          {
+            "id": "bd66160d-1",
+            "from_name": "transcription",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "AUTO UPLOAD SEARCHABLE ALGORITHM UNEXPECTED FROM TO ANOTHER"
+              ],
+              "x": 43.32414336352895,
+              "y": 66.12903225806451,
+              "width": 7.7195746356833395,
+              "height": 3.0913978494623655,
+              "rotation": 0
+            },
+            "score": 0.948002081111111
+          },
+          {
+            "id": "c4306ade-8",
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectangle",
+            "value": {
+              "x": 51.555730602599446,
+              "y": 66.12903225806451,
+              "width": 4.332414336352895,
+              "height": 3.0913978494623655,
+              "rotation": 0
+            }
+          },
+          {
+            "id": "c4306ade-8",
+            "from_name": "transcription",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "OCR A 2 RESULT OCR, RE- ALGORITH"
+              ],
+              "x": 51.555730602599446,
+              "y": 66.12903225806451,
+              "width": 4.332414336352895,
+              "height": 3.0913978494623655,
+              "rotation": 0
+            },
+            "score": 0.9522293971428571
+          },
+          {
+            "id": "5bd029a8-4",
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectangle",
+            "value": {
+              "x": 43.63922804253643,
+              "y": 72.1774193548387,
+              "width": 3.465931469082316,
+              "height": 3.0913978494623655,
+              "rotation": 0
+            }
+          },
+          {
+            "id": "5bd029a8-4",
+            "from_name": "transcription",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "AUTO UPLOAD SEARCHABLE ALGORITHM UNEXPECTED FROM TO ANOTHER"
+              ],
+              "x": 43.63922804253643,
+              "y": 72.1774193548387,
+              "width": 3.465931469082316,
+              "height": 3.0913978494623655,
+              "rotation": 0
+            },
+            "score": 0.948002081111111
+          },
+          {
+            "id": "fdece311-9",
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectangle",
+            "value": {
+              "x": 47.61717211500591,
+              "y": 72.1774193548387,
+              "width": 2.7569909413154785,
+              "height": 3.763440860215054,
+              "rotation": 0
+            }
+          },
+          {
+            "id": "fdece311-9",
+            "from_name": "transcription",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "OCR A 2 RESULT OCR, RE- ALGORITH"
+              ],
+              "x": 47.61717211500591,
+              "y": 72.1774193548387,
+              "width": 2.7569909413154785,
+              "height": 3.763440860215054,
+              "rotation": 0
+            },
+            "score": 0.9522293971428571
+          },
+          {
+            "id": "1eb163a2-2",
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectangle",
+            "value": {
+              "x": 50.84679007483261,
+              "y": 72.1774193548387,
+              "width": 4.529342260732572,
+              "height": 3.0913978494623655,
+              "rotation": 0
+            }
+          },
+          {
+            "id": "1eb163a2-2",
+            "from_name": "transcription",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "DOWNLOAD PDF aa OPTION OCR"
+              ],
+              "x": 50.84679007483261,
+              "y": 72.1774193548387,
+              "width": 4.529342260732572,
+              "height": 3.0913978494623655,
+              "rotation": 0
+            },
+            "score": 0.8599868239999999
+          },
+          {
+            "id": "4b8da232-c",
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectangle",
+            "value": {
+              "x": 43.20598660890114,
+              "y": 78.2258064516129,
+              "width": 1.6148089799133518,
+              "height": 3.0913978494623655,
+              "rotation": 0
+            }
+          },
+          {
+            "id": "4b8da232-c",
+            "from_name": "transcription",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "AUTO UPLOAD SEARCHABLE ALGORITHM UNEXPECTED FROM TO ANOTHER"
+              ],
+              "x": 43.20598660890114,
+              "y": 78.2258064516129,
+              "width": 1.6148089799133518,
+              "height": 3.0913978494623655,
+              "rotation": 0
+            },
+            "score": 0.948002081111111
+          },
+          {
+            "id": "da3d8a45-5",
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectangle",
+            "value": {
+              "x": 45.332808192201654,
+              "y": 78.2258064516129,
+              "width": 1.7723513194170935,
+              "height": 3.0913978494623655,
+              "rotation": 0
+            }
+          },
+          {
+            "id": "da3d8a45-5",
+            "from_name": "transcription",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "OCR A 2 RESULT OCR, RE- ALGORITH"
+              ],
+              "x": 45.332808192201654,
+              "y": 78.2258064516129,
+              "width": 1.7723513194170935,
+              "height": 3.0913978494623655,
+              "rotation": 0
+            },
+            "score": 0.9522293971428571
+          },
+          {
+            "id": "400d1c38-b",
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectangle",
+            "value": {
+              "x": 47.53840094525404,
+              "y": 78.2258064516129,
+              "width": 2.4419062623079952,
+              "height": 3.0913978494623655,
+              "rotation": 0
+            }
+          },
+          {
+            "id": "400d1c38-b",
+            "from_name": "transcription",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "DOWNLOAD PDF aa OPTION OCR"
+              ],
+              "x": 47.53840094525404,
+              "y": 78.2258064516129,
+              "width": 2.4419062623079952,
+              "height": 3.0913978494623655,
+              "rotation": 0
+            },
+            "score": 0.8599868239999999
+          },
+          {
+            "id": "bb63e675-7",
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectangle",
+            "value": {
+              "x": 50.33477747144545,
+              "y": 78.2258064516129,
+              "width": 6.025994486018117,
+              "height": 3.0913978494623655,
+              "rotation": 0
+            }
+          },
+          {
+            "id": "bb63e675-7",
+            "from_name": "transcription",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "THE ALGORITHM THROUGH"
+              ],
+              "x": 50.33477747144545,
+              "y": 78.2258064516129,
+              "width": 6.025994486018117,
+              "height": 3.0913978494623655,
+              "rotation": 0
+            },
+            "score": 0.9510361999999999
+          },
+          {
+            "id": "9a9fcf88-5",
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectangle",
+            "value": {
+              "x": 43.521071287908626,
+              "y": 84.2741935483871,
+              "width": 5.829066561638441,
+              "height": 3.0913978494623655,
+              "rotation": 0
+            }
+          },
+          {
+            "id": "9a9fcf88-5",
+            "from_name": "transcription",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "AUTO UPLOAD SEARCHABLE ALGORITHM UNEXPECTED FROM TO ANOTHER"
+              ],
+              "x": 43.521071287908626,
+              "y": 84.2741935483871,
+              "width": 5.829066561638441,
+              "height": 3.0913978494623655,
+              "rotation": 0
+            },
+            "score": 0.948002081111111
+          },
+          {
+            "id": "66e6ac20-d",
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectangle",
+            "value": {
+              "x": 49.70460811343048,
+              "y": 84.2741935483871,
+              "width": 5.986608901142182,
+              "height": 3.0913978494623655,
+              "rotation": 0
+            }
+          },
+          {
+            "id": "66e6ac20-d",
+            "from_name": "transcription",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "OCR A 2 RESULT OCR, RE- ALGORITH"
+              ],
+              "x": 49.70460811343048,
+              "y": 84.2741935483871,
+              "width": 5.986608901142182,
+              "height": 3.0913978494623655,
+              "rotation": 0
+            },
+            "score": 0.9522293971428571
+          },
+          {
+            "id": "f6a61985-d",
+            "from_name": "bbox",
+            "to_name": "image",
+            "type": "rectangle",
+            "value": {
+              "x": 29.65734541157936,
+              "y": 20.43010752688172,
+              "width": 54.23395037416306,
+              "height": 74.05913978494624,
+              "rotation": 0
+            }
+          },
+          {
+            "id": "f6a61985-d",
+            "from_name": "transcription",
+            "to_name": "image",
+            "type": "textarea",
+            "value": {
+              "text": [
+                "AUTO UPLOAD SEARCHABLE ALGORITHM UNEXPECTED FROM TO ANOTHER"
+              ],
+              "x": 29.65734541157936,
+              "y": 20.43010752688172,
+              "width": 54.23395037416306,
+              "height": 74.05913978494624,
+              "rotation": 0
+            },
+            "score": 0.948002081111111
+          }
+        ],
+        "score": 0.9263266851851851
+      }
+    ]
+  }
+]

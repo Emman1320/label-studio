@@ -189,8 +189,6 @@ task_create_response_scheme = {
 
 
 
-
-
 # create projects for pdffilename
 
 def createproject(string1):
@@ -385,26 +383,7 @@ class ImportAPI(generics.CreateAPIView):
 
         return Response(response, status=status.HTTP_201_CREATED)
         
-         
-       
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+      
 
 
 
